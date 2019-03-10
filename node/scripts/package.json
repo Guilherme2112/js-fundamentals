@@ -1,0 +1,12 @@
+{
+  "name": "script-example",
+  "version": "1.0.0",
+  "description": "Estudo de node js",
+  "main": "example.js",
+  "scripts": {
+    "bla": "node example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guilherme Moreira Santos",
+  "license": "MIT"
+}
