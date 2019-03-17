@@ -29,8 +29,19 @@ app.post('/upload', (req, res) => {
 })
 
 app.post('/formulario', (req, res) => {
-  console.log(req.body);
   res.send({...req.body, id: 1})
+})
+
+app.get('/parOuImpar', (req, res) => {
+  //req.body - parametros do corpo do request
+  //req.query - parametros de queryString
+  //req.params  parametro de url
+
+  const par = parseInt(req.query.numero) % 2 === 0
+
+  res.send({
+    resultado: par ? 'par' : 'impar'
+  })
 })
 
 app.get('/teste', (req, res) => {
