@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'RobotoMono';
+  src:  url('./fonts/RobotoMono-Thin.ttf');
+}
+
+* {
+  font-family: 'RobotoMono', monospace ;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: rgba(219,219,219,1);
+  background: -moz-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 0%, rgba(235,235,235,1) 32%, rgba(239,239,239,1) 46%, rgba(254,254,254,1) 100%);
+  background: -webkit-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 0%, rgba(235,235,235,1) 32%, rgba(239,239,239,1) 46%, rgba(254,254,254,1) 100%);
+  background: -o-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 0%, rgba(235,235,235,1) 32%, rgba(239,239,239,1) 46%, rgba(254,254,254,1) 100%);
+  background: -ms-linear-gradient(left, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 0%, rgba(235,235,235,1) 32%, rgba(239,239,239,1) 46%, rgba(254,254,254,1) 100%);
+  background: linear-gradient(to right, rgba(219,219,219,1) 0%, rgba(226,226,226,1) 0%, rgba(235,235,235,1) 32%, rgba(239,239,239,1) 46%, rgba(254,254,254,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#fefefe', GradientType=1 );
+}
